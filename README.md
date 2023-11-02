@@ -1,2 +1,21 @@
 # How-to-do
-note
+
+<details>
+<summary>React</summary>
+  <ul>
+  <li>
+    <h1>How to change React Element to HTMLElement</h1>
+
+        const ReactElement = <div>Hello World</div>
+        const root = document.createElement("div");
+        
+        root.id = "root";
+        
+        const newRoot = createRoot(root);
+        newRoot.render(ReactElement);
+        
+        console.log(root); // it wil return that rendered HTMLElement
+        
+  </li>
+  </ul>
+</details>
