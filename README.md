@@ -7,7 +7,7 @@
     <h1>How to change React Element to HTMLElement</h1>
 
         const ReactElement = <div>Hello World</div>
-        const root = document.createElement("div");
+        const root = document.createElement("div") or document.createDocumentFragment();
         
         root.id = "root";
         
@@ -17,7 +17,7 @@
         console.log(root);
         // it wil return that rendered HTMLElement.
         // it cannot get childNodes. i dont know why this.
-        // it can insert.
+        // it can insert to any HTMLElement.
         
   </li>
   </ul>
