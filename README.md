@@ -14,7 +14,10 @@
         const newRoot = createRoot(root);
         newRoot.render(ReactElement);
         
-        console.log(root); // it wil return that rendered HTMLElement
+        console.log(root);
+        // it wil return that rendered HTMLElement.
+        // it cannot get childNodes. i dont know why this.
+        // it can insert.
         
   </li>
   </ul>
